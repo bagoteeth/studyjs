@@ -24,3 +24,4 @@ console.log(one.reduce(function(x,y){
 var arr2 = ['1','2','3'];
 console.log(arr2.map(parseInt));
 console.log(arr2.map(x=>parseInt(x)));
+console.log(arr2.map(Number));
